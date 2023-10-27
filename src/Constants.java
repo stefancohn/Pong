@@ -7,5 +7,5 @@ public class Constants {
     public static final int BALL_SPEED = 9;
     public static final int TILE_SIZE = 16;
     public static final int FPS = 30;
-    public static final int AI_SPEED = 1;
+    public static final int AI_SPEED = 2;
 }

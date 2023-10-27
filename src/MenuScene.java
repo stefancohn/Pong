@@ -14,7 +14,7 @@ public class MenuScene extends Scene {
 
     @Override
     public void update() {
-        if (mH.getX() > playBounds.x && mH.getY() > playBounds.y && 
+        if ( mH.getX() > playBounds.x && mH.getY() > playBounds.y && 
         mH.getX() < playBounds.x + playBounds.width && mH.getY() < playBounds.y + playBounds.height) {
             darken = true;
             if (MouseHandler.clicked == true) {
